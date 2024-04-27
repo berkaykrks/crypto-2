@@ -1,0 +1,264 @@
+body {
+    background-color: #1e1f22;
+}
+
+
+/*NAVBAR RRENGİ*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.offcanvas {
+    background-color: rgba(58, 58, 58, 0.9) !important;
+}
+
+.card {
+    max-height: 100%;
+}
+
+.card-body {
+    background-color: #1e1f22;
+    color: white;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+/*Sağ alt köşeye span yerleştirildi*/
+
+
+/*sağ üst köşeye icon yerleştirildi*/
+.small-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    margin-bottom: 2px;
+}
+
+.border-gold {
+    border: 3px solid rgb(251, 255, 0) !important;
+    box-shadow: 0 0 8px rgb(252, 247, 0);
+}
+
+.border-green {
+    border: 3px solid rgb(43, 255, 0) !important;
+    box-shadow: 0 0 10px rgba(60, 255, 0, 0.7);
+}
+
+.border-red {
+    border: 3px solid rgb(255, 17, 0) !important;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+
+/*button üzerine gelince büyür*/
+.btn-grow:hover {
+    transform: scale(1.05);
+    /* 1.1 kat büyütme */
+    transition: transform 0.4s ease;
+    /* Geçiş efekti */
+}
+
+.btn-grow:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.4s ease;
+    /* Geçiş efekti */
+}
+
+
+
+/*POPUP İmg*/
+/* Popup */
+.popup {
+    display: flex;
+    /* Dikey ve yatay merkezlemek için flex kullan */
+    justify-content: center;
+    /* Yatay merkezleme */
+    align-items: center;
+    /* Dikey merkezleme */
+}
+
+/* Görüntü stilini ayarlamak için */
+.popup-img {
+    width: 500px;
+    height: auto;
+    /* Otomatik yükseklik */
+    display: block;
+    /* Dikey olarak ortalamak için görüntüyü blok element olarak ayarla */
+    margin: 0 auto;
+    /* Yatay olarak ortala */
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    max-height: 270px;
+}
+
+/*PopUp arkaplan*/
+.modal {
+    color: white;
+}
+
+.modal-content {
+    background-color: rgba(19, 18, 18, 0.98);
+}
+/*modal başlık ortalama*/
+.modal-title {
+    text-align: center;
+    width: 100%;
+}
+
+/*Modal Button ortalama*/
+.btn-center{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+
+/*BTN Boyut*/
+.btn-boy {
+    height: 40px;
+    width: 90px;
+}
+
+/*responsive*/
+
+
+
+/*Yanıp Sönen Işık*/
+.light-red {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: red;
+    position: fixed;
+    /* Mutlaka ekleyin */
+    bottom: 2.69rem;
+    /* Sol alt köşeye yerleştirin */
+    left: 2rem;
+    /* Sol alt köşeye yerleştirin */
+    animation: blink 0.9s infinite alternate;
+    /* Animasyonu tanımla */
+}
+
+.light-orange {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: rgb(210, 152, 19);
+    position: fixed;
+    /* Mutlaka ekleyin */
+    bottom: 2.69rem;
+    /* Sol alt köşeye yerleştirin */
+    left: 2rem;
+    /* Sol alt köşeye yerleştirin */
+    animation: blink 0.9s infinite alternate;
+    /* Animasyonu tanımla */
+}
+
+.light-green {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: green;
+    position: fixed;
+    /* Mutlaka ekleyin */
+    bottom: 2.69rem;
+    /* Sol alt köşeye yerleştirin */
+    left: 2rem;
+    /* Sol alt köşeye yerleştirin */
+    animation: blink 0.9s infinite alternate;
+    /* Animasyonu tanımla */
+}
+/*Yanıp sönen yazı*/
+.light-font {
+
+    position: fixed;
+    /* Mutlaka ekleyin */
+    bottom: 2.69rem;
+    /* Sol alt köşeye yerleştirin */
+    left: 2rem;
+    /* Sol alt köşeye yerleştirin */
+    animation: blink 0.9s infinite alternate;
+    /* Animasyonu tanımla */
+    color: rgb(210, 152, 19);
+}
+.light-font-modal{
+    color: rgb(210, 152, 19);
+    animation: blink 0.9s infinite alternate;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+        /* Başlangıçta tamamen görünür */
+    }
+
+    to {
+        opacity: 0;
+        /* Sona doğru tamamen görünmez */
+    }
+}
+
+/*responsive cursor-pointer*/
+@media (max-width: 1000px) {
+    .cursor-pointer {
+        left: 70px !important;
+        position: relative !important;
+        top: 20px !important;
+        bottom: 0px !important;
+        right: 40% ;
+    }
+  }
+
+/*başlıgı ayarlama*/
+.bar{
+    font-family: cursive;
+    color: #a19c9c;
+}
+
+
+/*CRYPTO VERİLERİNİ ÇEKME*/
+#crypto-info{
+    font-size:12px;
+    font-family: cursive;
+}
+
+.coin{
+    font-size: 12px;
+    
+}
+
+/*DateTime*/
+/*fOOTER AYARLAMA*/
+#cardContainer {
+    position: relative; /* Yeni kartların konumlandırılması için */
+    margin-bottom: 100px; /* Footer ile kartlar arasında boşluk bırakmak için */
+}
+.new-card {
+    margin-bottom: 20px; /* Yeni kartlar arasında boşluk bırakmak için */
+}
+
+/*LAUNCHPAD AİRDROP YAZI GİZLEME*/
+@media (max-width: 767px) {
+    .navbar-expand-lg .navbar-nav .bar {
+        visibility: hidden;
+        clear: both;
+        float: right;
+        margin: 5px auto;
+        width: 22%;
+        height: auto;
+        display: none;
+        
+    }
+  }
