@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BERKAY</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" th:href="@{/css/style.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" th:href="@{/style.css}">
+</head>
+
+<body class="bg-slate-900">
+
+    <nav>
+
+        <div class="container clearfix">
+            <div id="logo-box">
+                <a href="/" class="logo text-uppercase">
+                    Developer
+                </a>
+            </div>
+
+            <div id="nav-links" class="responsive">
+                <ul>
+                    <li class="nav-item text-uppercase nav-icon">
+                        <a class="nav-link">
+                            <i class="fas fa-bars"> Menu</i>
+                        </a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a href="#portfolio" class="nav-link">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a href="#about" class="nav-link">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item text-uppercase">
+                        <a href="#contact" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    
+    <hr>
+    <header id="anasayfa">
+
+        <div class="container">
+
+            <img id="profile-image" class="img-fluid" th:src="@{/images/avatar2.png}" alt="">
+            <h1 class="text-uppercase">ATA BERKAY KARAKUS</h1>
+            <hr class="star-light">
+            <h2>Junior Developer</h2>
+        </div>
+    </header>
+    <hr>
+
+    <section id="portfolio">
+
+        <div class="container">
+            <h2 class="text-uppercase">Portfolio</h2>
+            <hr class="star-dark">
+        </div>
+        <div id="portfolio-images" class="clearfix">
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="https://github.com/berkaykrks/bank-management-system-java-swing" target="_blank">
+						<h1>Bank System Management</h1>
+                        <img class="img-fluid-p" src="images/b.png" alt="Projelerimi ekleyin...">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="https://berkaykrks.github.io/galeri.github.io/" target="_blank">
+						<h1>Galery Project</h1>
+                        <img class="img-fluid-p" src="images/arac2.png" alt="">
+
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="https://berkaykrks.github.io/WebProgramlama/" target="_blank">
+						<h1>Art Gallery</h1>
+                        <img class="img-fluid-p" src="images/art.png" alt="">
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="portfolio-item">
+                    <a href="https://berkaykrks.github.io/myWebSite.github.io/" target="_blank">
+						<h1>My Other Web Site</h1>
+                        <img class="img-fluid-p" src="images/we.png" alt="">
+                        <div class="img-overlay">
+                            <div class="icon">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    	<section id="about">
+    	<h2 class="text-uppercase">
+        	About
+    	</h2>
+
+    	<hr class="star-light2">
+
+    	<div id="about-text" class="clearfix">
+        	<div class="center">
+            	<p class="text">
+                	<p>
+						Merhaba, İstanbul'da yaşayan bir Junior Yazılım Geliştiricisiyim. Medipol Üniversitesi'nde Bilgisayar Programcılığı üzerine eğitim alıyorum. 21 yaşındayım ve liseden beri yazılım dünyasına ilgi duyuyorum. Her geçen gün kendimi daha da geliştirmeye odaklanıyorum.
+					</p>
+
+					<p>
+						Hobilerim arasında spor yapmak, koşmak, bisiklet binmek, kitap okumak, yemek yapmak ve yeni yerler keşfetmek var. Aynı zamanda Java, Spring Boot ve Blockchain gibi teknolojilere ilgi duyuyorum. Bu alanlarda kendimi sürekli olarak geliştirmek ve yeni şeyler öğrenmek için çaba gösteriyorum.
+					</p>
+
+					<p>
+						İngilizce becerilerimi geliştirmek için çaba harcıyorum ve yeni teknolojileri takip etmek için sürekli olarak makaleler okuyorum. Amacım, yazılım dünyasında kendimi sürekli olarak ileriye taşımak ve etkileyici projelere imza atmak.
+					</p>
+
+					<p>
+						Okuduğunuz için Teşekkür ederim.
+					</p>
+					<p>
+						Ata Berkay Karakuş CV
+					</p>
+					<p>
+						↓
+					</p>
+            	</p>
+        	</div>
+    	</div>
+    	<button class="btn btn-outline" onclick="window.location.href='https://drive.google.com/uc?export=download&id=12eAAb6iCtqj5SLIQZJRp9vIr9a867uRG'">
+        	<i class="fas fa-download"></i>
+        	Download Now!
+    	</button>
+	</section>
+
+    <section id="contact">
+        <hr>
+        <div class="container">
+            <h2 class="text-uppercase">
+                Contact Me
+
+            </h2>
+
+            <hr class="star-dark2">
+
+            <form action="/submit-contact" id="contact-form" th:action="@{/submit-contact}" enctype="application/x-www-form-urlencoded" method="post">
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject ">
+                </div>
+
+
+                <div class="form-group">
+                    <input type="text" name="mail" id="mail" placeholder="E-Mail">
+                </div>
+
+
+                <div class="form-group">
+                    <input type="text" name="phone" id="phone" placeholder="Phone">
+                </div>
+
+
+                <div class="form-group">
+                    <textarea id="write" name="write" cols="30" rows="10" placeholder="Write..."></textarea>
+                </div>
+
+                <button class="btn btn-primary" type="submit">
+                    Send
+                </button>
+
+            </form>
+
+        </div>
+
+
+    </section>
+    <footer>
+        <hr>
+        <div class="container clearfix">
+            <div class="col3">
+                <h4 class="text-uppercase">
+                    <ul>
+                        <li>
+                            <button class="btn btn-outline btn-social">
+                                <a href="https://github.com/berkaykrks" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn btn-outline btn-social">
+                                <a href="https://www.linkedin.com/in/ata-berkay-karaku%C5%9F-ba33431a4/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn btn-outline btn-social">
+                                <a href="mailto:karakusataberkay@gmail.com" target="_blank">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col2">
+                <h4 class="text-uppercase">
+                    © Ata Berkay Karakus 2023
+                </h4>
+            </div>
+
+    </footer>
+    <script src="javascript.js"></script>
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+
+</body>
+
+</html>
